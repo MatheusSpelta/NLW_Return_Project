@@ -1,4 +1,4 @@
-import { PrismaClient } from "@Prisma/client";
+import { PrismaClient } from '@Prisma/client';
 
 export const prisma = new PrismaClient({
     log: ['query']
